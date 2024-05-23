@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎨Drawing and Photoshop📷🖼️<</title>
+    <style>
+      body {
+        background: linear-gradient(
+          45.8deg,
+          rgb(175, 104, 254) 9.3%,
+          rgb(101, 223, 255) 75.1%
+        );
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        box-shadow: 10px 10px 20px black;
+        background-color: darkorchid;
+        font-size: 25px;
+        border-radius: 8px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: rgba(136, 93, 241, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 20px;
+      }
+      .theme-button {
+        font-size: 12px;
+        background: black;
+        color: white;
+        padding: 5 8px;
+      }
+
+      .theme-button:hover {
+        color: black;
+        background: white;
+        cursor: pointer;
+      }
+
+      .cupcake-drawing-picture {
+        border-radius: 10px;
+        transition: opacity 150ms ease-in-out;
+      }
+      .cupcake-drawing-picture:hover {
+        filter: contrast(80%);
+        transform: scale(1.2);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        aspect-ratio: 1/1;
+        transition: all 150ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(2);
+      }
+
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgb(36, 45, 57) 11.2%,
+          rgb(16, 37, 60) 51.2%,
+          rgb(0, 0, 0) 98.6%
+        );
+
+        color: white;
+      }
+
+      .dark .container {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      .dark a {
+        color: aquamarine;
+      }
+      .learn {
+        background-color: rgba(74, 2, 137, 0.9);
+        color: #53b8ec;
+      }
+      .learn:hover {
+        background-color: blueviolet;
+        color: aquamarine;
+        cursor: pointer;
+      }
+
+      .Digital-Drawing-Warrior-Woman {
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 100px;
+      }
+      .Drawing-Trees {
+        position: fixed;
+        top: 0;
+        right: 0;
+        max-width: 100px;
+      }
+
+      .Japan-Mountain-Photoshop {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        max-width: 100px;
+      }
+      .Photoshop-Logo-Underwater {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        max-width: 100px;
+      }
+    </style>
+    <div class="Drawings">
+      <img
+        class="Digital-Drawing-Warrior-Woman"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/919/original/Digital_Drawing.jpeg?1715197722"
+        alt="Digital Drawing - Woman Warrior"
+      />
+      <img
+        class="Japan-Mountain-Photoshop"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/920/original/Japan_Mountain_photoshop.jpg?1715197990"
+        alt="Japan Mountain Photoshop"
+      />
+      <img
+        class="Drawing-Trees"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/921/original/drawing-trees.jpeg?1715198012"
+        alt="Drawing Trees"
+      />
+      <img
+        class="Photoshop-Logo-Underwater"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/922/original/photoshop_logo-underwater.jpeg?1715198032"
+        alt="Photoshop Logo Underwater"
+      />
+    </div>
+  </head>
+  <body>
+    <button class="theme-button">Dark Theme</button>
+    <div class="container">
+      <h1>Drawing and Photoshop</h1>
+      <h2>My Favorite Hobby</h2>
+      <a href="https://en.wikipedia.org/wiki/Drawing" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/517/original/finished-cupcake.jpeg?1714838133"
+          alt=""
+          class="cupcake-drawing-picture"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/470/original/SeansWolf.jpg?1714779385"
+          alt=""
+          class="wolf-drawing"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/515/original/fairy_blanket_1.jpg?1714837132"
+          alt=""
+          class="fairyblanket-drawing"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/512/original/Granny_Drawing.jpg?1714836337"
+          alt=""
+          class="granny-drawing"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/518/original/Model_Blue_Stripe_1.jpg?1714838260"
+          alt=""
+          class="model-photoshop"
+        />
+      </div>
+      <p>
+        <b>Adobe Photoshop</b> is a raster graphics editor developed and
+        published by Adobe for Windows and macOS. It was originally created in
+        1987 by Thomas and John Knoll. Since then, the software has become the
+        most used tool for professional digital art, especially in raster
+        graphics editing. Drawing is a visual art that uses an instrument to
+        mark paper or another two-dimensional surface.
+      </p>
+      <p>
+        The <em><b>instrument</b></em> might be <em>pencils</em>,
+        <em>crayons</em>, <em>pens with inks</em>, <em>brushes</em> with
+        <em>paints</em>, or combinations of these, and in more modern times,
+        computer styluses with graphics tablets. A drawing
+        <em>instrument</em> releases a small amount of material onto a surface,
+        leaving a visible mark. The most common support for drawing is
+        <em>paper</em>, although other materials, such as <em>cardboard</em>,
+        <em>vellum</em>, <em>wood</em>, <em>plastic</em>, <em>leather</em>,
+        <em>canvas</em>, and <em>board</em>, have been used. Temporary drawings
+        may be made on a <em>blackboard</em> or <em>whiteboard</em>.
+      </p>
+
+      <p>
+        Drawing has been a popular and fundamental means of public expression
+        throughout human history. It is one of the simplest and most efficient
+        means of communicating ideas.The wide availability of drawing
+        instruments makes drawing one of the most common artistic activities. In
+        addition to its more artistic forms, drawing is frequently used in
+        <em>commercial illustration</em>, <em>animation</em>,
+        <em>architecture</em>, <em>engineering</em>, and
+        <em>technical drawing</em>. A quick, freehand drawing, usually not
+        intended as a finished work, is sometimes called a sketch. An artist who
+        practices or works in technical drawing may be called a drafter,
+        draftsman, or draughtsman.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Drawing" target="_blank"
+        >Learn more about <br />
+        <ctr>Drawing</ctr><br />on Wikipedia</a
+      >
+      <div>
+        <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop" target="_blank"
+          ><br />
+          Learn more about <br />
+          <ctr>Photoshop</ctr><br />on Wikipedia</a
+        >
+      </div>
+      <button class="learn">Learn Drawing & Photoshop</button>
+    </div>
+    <footer>
+      Coded by
+      <a
+        href="https://www.linkedin.com/in/diana-colef-b50a17278/"
+        target="_blank"
+        >💜Diana Colef💜</a
+      >
+      with HTML, CSS and JavaScript
+    </footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        // body.classlist.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+
+      function learn() {
+        let learnButton = document.querySelector("learnButton");
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let art = prompt("Do you Draw or use Photoshop?");
+        let emoji = prompt("What is your favorite emoji?");
+        alert(
+          "Thank you" +
+            " " +
+            name +
+            " " +
+            "! We'll be in touch by email, meanwhile enjoy learning to draw & learning to use photoshop!" +
+            emoji
+        );
+      }
+      let learnButton = document.querySelector(".learn");
+      learnButton.addEventListener("click", learn);
+    </script>
+  </body>
+</html>

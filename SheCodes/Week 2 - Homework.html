@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Homework</title>
+    <style>
+h1 {
+    color:#1a64d6;
+text-align: center;
+font-size: 34px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+border: 0;
+padding: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 220.667.48;
+    line-height: 48px;
+}
+.temp {
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+}
+p {
+    font-size: 18px;
+    opacity: 0.7;
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter;
+    display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   border: 0;
+   padding: 0;
+}
+li {
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    max-width: 400px;
+    margin: 0 auto;
+}
+li:hover {
+    text-align: center;
+    background: #FFFBEF;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    max-width: 400px;
+    margin: 0 auto;
+}
+button {
+    background-color: #1A64D6;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border: #1A64D6 1px solid;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgba(37,39,89,0.08) 0px 8px 8px 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #FFF;
+    color: #1A64D6;
+}
+    </style>
+</head>
+<body>
+    <h1>&#127780
+    <br>
+    Currently 21&deg; in Tokyo
+    </h1>
+    <h2>13&deg; / <span class="temp">23&deg;</span></h2>
+  <ul>
+    <li>
+       <h3>&#127783 Tomorrow</h3>
+        <p>10&deg; / <span class="temp">22&deg;</span></p>
+    </li>
+    </ul>
+    <ul>
+        <li>
+            <h3>&#127781 Saturday </h3>
+            <p>15&deg; / <span class="temp">17&deg;</span></p>
+        </li>
+    </ul>
+ <ul>
+    <li>
+       <h3>&#9728;&#65039; Sunday </h3>
+        <p>25&deg; / <span class="temp">28&deg;</span></p>
+    </li>
+    </ul>
+    <button>Change city</button>
+    <p> Coded by Diana Colef</p>
+    <script>
+    
+  function changeTemp() {
+    let city = prompt("Which city?");
+    let temp = prompt("What temperature is it?");
+    let h1 = document.querySelector("h1");
+    if (temp > 0) {
+      h1.innerHTML = "😊 <br/> Currently " + temp + "&deg" + " in " + city;
+    } else {
+      h1.innerHTML = "😵‍💫 <br/> Currently " + temp + "&deg" + " in " + city;
+    }
+  }
+  let changeButton = document.querySelector("button");
+  changeButton.addEventListener("click", changeTemp);
+</script>
+</body>
+</html>
